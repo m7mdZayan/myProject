@@ -10,3 +10,7 @@
 
 
 -git branch test
+
+-git checkout -b develop
+-git add .
+-git commit -m "style.css file is added"
