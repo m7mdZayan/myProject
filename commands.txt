@@ -18,3 +18,14 @@
 -git add .
 -git commit -m "main.js file added"
 - git push origin develop
+
+-git checkout main
+- git merge develop
+
+TO DELETE DEVELOP BRANCH ===>  git branch -d develop
+TO DELETE DEVELOP BRANCH remotely => git push origin --delete develop
+TO UNDO THE LAST COMMIT ===> git reset --hard HEAD^
+
+
+git tag -a v1.4 -m "version 1.4.0"
+TO SHOW TAGS LOCALLY ===> git tag -n
