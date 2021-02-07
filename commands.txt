@@ -4,3 +4,9 @@
 -git remote add origin https://github.com/m7mdZayan/myProject.git
 -git branch -M main
 -git push -u origin main
+
+-git add .
+- git commit -m "added some commands in commands file"
+
+
+-git branch test
