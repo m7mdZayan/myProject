@@ -29,3 +29,6 @@ TO UNDO THE LAST COMMIT ===> git reset --hard HEAD^
 
 git tag -a v1.4 -m "version 1.4.0"
 TO SHOW TAGS LOCALLY ===> git tag -n
+
+TO DELETE A TAG (LOCAL) ===> git tag -d v1.4
+TO DELETE A TAG (LOCAL) ===> git push origin --delete v1.4
